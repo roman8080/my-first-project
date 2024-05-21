@@ -63,6 +63,44 @@
         align-items: flex-start;
         flex-direction: column;
       }
+      .services {
+        display: flex;
+        flex-direction: column;
+        gap: 7rem;
+        padding: 100px;
+      }
+      .cards {
+        display: flex;
+        gap: 50px;
+
+        color: blueviolet;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: rgb(192, 140, 241);
+        border-radius: 10px;
+        padding: 30px;
+        position: relative;
+      }
+      .title {
+        text-align: center;
+      }
+      .card h2 {
+        color: rgb(70, 7, 129);
+      }
+      .card p {
+        font-size: 18px;
+        color: rgb(16, 1, 29);
+      }
+      .card img {
+        width: 150px;
+        position: absolute;
+        top: -40px;
+        right: 110px;
+      }
     </style>
   </head>
 
@@ -87,12 +125,85 @@
       <section class="hero">
         <div class="content">
           <h1>TESLA</h1>
-          <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis voluptas voluptatem, amet aperiam labore ab praesentium minus. Quas soluta aliquid vero voluptate consequatur rem vitae quam eligendi odit, voluptas neque?</h2>
+          <h2>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
+            voluptas voluptatem, amet aperiam labore ab praesentium minus. Quas
+            soluta aliquid vero voluptate consequatur rem vitae quam eligendi
+            odit, voluptas neque?
+          </h2>
         </div>
 
         <div>
-<spline-viewer url="https://prod.spline.design/ozAvedp2W8QmES4b/scene.splinecode"></spline-viewer>
+          <spline-viewer
+            url="https://prod.spline.design/ozAvedp2W8QmES4b/scene.splinecode"
+          ></spline-viewer>
         </div>
+      </section>
+
+      <section class="services">
+        <h1 class="title">OUR SERVICES</h1>
+        <div class="cards">
+          <div class="card">
+            <img
+              src="https://cyberwraps.com/wp-content/uploads/2023/11/carmine-red-1024x499.png"
+              alt=""
+            />
+            <h2>Service1</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+              perspiciatis tenetur ab nisi quidem beatae, accusantium voluptatum
+              sint incidunt placeat praesentium rerum officia vel, qui dolorum
+              dolorem vitae minima expedita.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://electrek.co/wp-content/uploads/sites/3/2023/11/2021484-00-A_1_2000-e1701390038718.png"
+              style="width: 200px !important; top: -60px"
+              alt=""
+            />
+            <h2>Service2</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Distinctio debitis suscipit, consequatur quae earum itaque?
+              Facilis nam ea accusamus quos maxime, et cupiditate facere
+              voluptate mollitia soluta! Qui, quam quaerat!
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://www.cybertruckownersclub.com/forum/attachments/satin-crimson-red-ct-png.41146/"
+              alt=""
+            />
+            <h2>Service3</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+              corporis explicabo qui magnam numquam debitis expedita maiores
+              fugiat et asperiores! Suscipit perspiciatis culpa magnam
+              architecto dolores, facere nostrum nesciunt nisi.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+       
+          <iframe
+            title="Tesla CyberTruck"
+            frameborder="0"
+            width="100%"
+            height="500px"
+            allowfullscreen
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+            allow="autoplay; fullscreen; xr-spatial-tracking"
+            xr-spatial-tracking
+            execution-while-out-of-viewport
+            execution-while-not-rendered
+            web-share
+            src="https://sketchfab.com/models/6609f5143950443db757e1f4e00f8dbe/embed"
+          >
+          </iframe>
       </section>
     </main>
 
